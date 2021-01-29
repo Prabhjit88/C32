@@ -10,7 +10,7 @@ var ball;
 var slingShot;
 var polygon_img;
 var score = 0;
-var bckImg = "images/light.jpg";
+var bckImg = "light.jpg";
 
 function preload(){
   getBackgroundImage();
@@ -193,10 +193,10 @@ async function getBackgroundImage(){
   console.log(hour);
   console.log(dateTime);
   if(hour >=06 && hour <=18){
-    bg = "images/light.jpg";
+    bg = "light.jpg";
   }
   else{
-    bg = "images/dark.jpg";
+    bg = "dark.jpg";
   }
 
   bckImg = loadImage(bg);
